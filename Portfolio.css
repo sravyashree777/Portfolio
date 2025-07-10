@@ -645,9 +645,86 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
 
+  .hero {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
 
+  .hero h1 {
+    font-size: 2.5rem;
+  }
 
+  .hero-image {
+    max-width: 280px;
+    margin-top: 20px;
+  }
 
+  .about-columns {
+    flex-direction: column;
+    gap: 20px;
+  }
 
+  .about-box {
+    padding: 40px 20px;
+    flex: 1 1 100%;
+  }
+
+  .skills-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-list {
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  .projects-container {
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 90%;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 0;
+    gap: 10px;
+    top: 10px;
+    right: 10px;
+  }
+
+  .portfolio-tag {
+    font-size: 1.8rem;
+    top: 10px;
+    left: 15px;
+  }
+
+  .education {
+    padding: 60px 20px;
+  }
+
+  .btech {
+    padding-left: 10px;
+  }
+
+  .contact-list {
+    padding-left: 10px;
+  }
+
+  .contact-item {
+    font-size: 1rem;
+  }
+}
 
