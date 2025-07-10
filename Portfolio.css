@@ -743,6 +743,76 @@ html {
   padding: 0 10px;
   }
 
+  .about-box,
+  .project-card {
+    width: 90vw;            /* Wider content box */
+    max-width: 100%;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .about-box p,
+  .project-card p {
+    text-align: justify;
+    padding: 0 5px;
+  }
+
+  .project-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+
+
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 10px;
+  }
+
+  header h1, /* For "My Portfolio" */
+  nav {
+    text-align: center;
+    margin: 0;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 0 6px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  /* Fix hero section spacing */
+  #home {
+    margin-top: 80px; /* Push down to clear header */
+    padding: 20px;
+    text-align: center;
+  }
+
+  #home h1 {
+    font-size: 2rem;
+  }
+
+  #home p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+
+  #home .intro-text {
+  margin: 0 auto;
+  max-width: 90%;
+  }
+
 }
 
 
